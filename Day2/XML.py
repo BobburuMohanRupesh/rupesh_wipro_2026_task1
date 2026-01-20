@@ -18,7 +18,7 @@ ET.SubElement(emp1,"Salary").text = "100000"
 emp2 = ET.SubElement(root, "emp")
 
 ET.SubElement(emp1,"id").text="102"
-ET.SubElement(emp1,"name").text="abhi"
+ET.SubElement(emp1,"name").text="Rupesh"
 ET.SubElement(emp1,"Salary").text = "110000"
 
 tree = ET.ElementTree(root)
